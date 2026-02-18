@@ -862,3 +862,25 @@ elif menu == "⚔️ Mode Versus":
         else:
             st.info("Aucune confrontation directe trouvée.")
         
+# --- PIED DE PAGE (SIDEBAR) ---
+st.sidebar.markdown("---")
+with st.sidebar.expander("ℹ️ Mentions Légales & RGPD", expanded=False):
+    st.markdown("""
+    ### 🚧 Projet Communautaire
+    **K9-Tracker** est un outil indépendant et gratuit, développé par un passionné d'Agility. 
+    Il n'est pas affilié officiellement aux instances fédérales.
+
+    ### 📊 Origine des Données
+    Les résultats affichés sont issus de données publiques accessibles librement sur internet. 
+    Ce site agrège ces informations uniquement à des fins de statistiques sportives et d'analyse personnelle.
+
+    ### 🕵️ Droit d'opposition (RGPD)
+    Conformément au Règlement Général sur la Protection des Données, vous disposez d'un droit d'accès et de suppression des informations vous concernant.
+    
+    **Vous ne souhaitez pas apparaître ici ?**
+    Simple et sans justification : envoyez un email ci-dessous et vos résultats seront anonymisés ou supprimés sous 48h.
+
+    📧 **Contact :** *k9-tracker@gmail.com*
+    """)
+    
+    st.caption("© 2026 K9-Tracker - Version Bêta")
