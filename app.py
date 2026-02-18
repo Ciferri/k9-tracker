@@ -8,7 +8,7 @@ import altair as alt
 st.set_page_config(page_title="K9-Tracker Analytics", page_icon="🐕", layout="wide")
 
 # Chemin relatif vers la base de données depuis le dossier /web
-DB_PATH = "../data/agility_complete.db"
+DB_PATH = "agility_complete.db"
 
 def load_data(query, params=()):
     """Connexion sécurisée à la base de données"""
